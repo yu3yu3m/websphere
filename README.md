@@ -22,3 +22,10 @@ how to get password:
 
       yumiyaha@YUMIYAHA-M-7396 was_traditional % kubectl exec -it  was-traditional-854775cd5d-pcvd8 -- cat /tmp/PASSWORD
       qX+eoblf
+      
+      
+## 3. Deploy your application
+
+
+### Sample deploy application
+https://github.com/imago-storm/hello-world-ear
