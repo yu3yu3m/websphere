@@ -1,8 +1,8 @@
 # WebSphere (traditional)
 
-## 1. start.shを実行します / Execute start.sh
+## 1. Execute start.sh
    
-   サーバーがスタートするまで待ちます  /  Please wait until server start...
+   Please wait until server start...
    
       yumiyaha@YUMIYAHA-M-7396 was_traditional % kubectl logs was-traditional-79bfc5bdff-h76cp
       Configure logging mode
@@ -13,21 +13,25 @@
       Starting logViewer ................
       Starting server ...................
 
-## 2. コンソールにアクセスします / Access console https://localhost:30002/ibm/console/login.do?action=secure
+## 2. Access console https://localhost:30002/ibm/console/login.do?action=secure
 
 userid: wsadmin
 
-パスワード取得方法 / how to get password:
+how to get password:
 
 
       yumiyaha@YUMIYAHA-M-7396 was_traditional % kubectl exec -it  was-traditional-854775cd5d-pcvd8 -- cat /tmp/PASSWORD
       qX+eoblf
       
       
-## 3. アプリケーションをデプロイ / Deploy your application
+## 3. Deploy your application
 
-## 4. アプリケーションにアクセス / Access your application https://localhost:30002/YOUR_APPLICATION_CONTEXTROOT
+## 4. Access your application https://localhost:30002/YOUR_APPLICATION_CONTEXTROOT
 
 
 ### Sample deploy application
 https://github.com/imago-storm/hello-world-ear
+
+If you have your application, please use it.
+
+ご自身のアプリケーションがある場合は、それを使用してください。
