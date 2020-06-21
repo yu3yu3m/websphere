@@ -13,7 +13,8 @@
       Starting logViewer ................
       Starting server ...................
 
-## 2. Access console https://localhost:30002/ibm/console/login.do?action=secure
+## 2. Access console 
+https://localhost:30002/ibm/console/login.do?action=secure
 
 userid: wsadmin
 
@@ -26,7 +27,8 @@ how to get password:
       
 ## 3. Deploy your application
 
-## 4. Access your application https://localhost:30002/YOUR_APPLICATION_CONTEXTROOT
+## 4. Access your application 
+https://localhost:30002/YOUR_APPLICATION_CONTEXTROOT
 
 
 ### Sample deploy application
