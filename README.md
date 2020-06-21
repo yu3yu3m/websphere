@@ -1,6 +1,6 @@
 # WebSphere (traditional)
 
-## 1. Execute start.sh
+## 1. start.shを実行します / Execute start.sh
    
    サーバーがスタートするまで待ちます  /  Please wait until server start...
    
@@ -13,18 +13,20 @@
       Starting logViewer ................
       Starting server ...................
 
-## 2. Access console https://localhost:30002/ibm/console/login.do?action=secure
+## 2. コンソールにアクセスします / Access console https://localhost:30002/ibm/console/login.do?action=secure
 
 userid: wsadmin
 
+パスワード取得方法 / how to get password:
 
-how to get password:
 
       yumiyaha@YUMIYAHA-M-7396 was_traditional % kubectl exec -it  was-traditional-854775cd5d-pcvd8 -- cat /tmp/PASSWORD
       qX+eoblf
       
       
-## 3. Deploy your application
+## 3. アプリケーションをデプロイ / Deploy your application
+
+## 4. アプリケーションにアクセス / Access your application https://localhost:30002/<ContextRoot>
 
 
 ### Sample deploy application
