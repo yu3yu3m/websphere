@@ -1,6 +1,8 @@
 # WebSphere (traditional)
 
-## 1. start.sh
+## 1. Execute start.sh
+   
+   サーバーがスタートするまで待ちます  /  Please wait until server start...
    
       yumiyaha@YUMIYAHA-M-7396 was_traditional % kubectl logs was-traditional-79bfc5bdff-h76cp
       Configure logging mode
@@ -11,4 +13,10 @@
       Starting logViewer ................
       Starting server ...................
 
-## 
+## 2. Access console https://localhost:30002/ibm/console/login.do?action=secure
+
+userid: wsadmin
+how to get password:
+
+      yumiyaha@YUMIYAHA-M-7396 was_traditional % kubectl exec -it  was-traditional-854775cd5d-pcvd8 -- cat /tmp/PASSWORD
+      qX+eoblf
