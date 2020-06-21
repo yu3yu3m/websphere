@@ -26,7 +26,7 @@ userid: wsadmin
       
 ## 3. アプリケーションをデプロイ / Deploy your application
 
-## 4. アプリケーションにアクセス / Access your application https://localhost:30002/<ContextRoot>
+## 4. アプリケーションにアクセス / Access your application https://localhost:30002/BlahBlah
 
 
 ### Sample deploy application
