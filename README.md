@@ -2,6 +2,7 @@
 
 ## Lecture video
 (Japanese) https://www.youtube.com/watch?v=unSnRHMwwlE
+
 (English) https://www.youtube.com/watch?v=xUZLUHxPHlU
 
 WebSphereとは？
