@@ -1,5 +1,9 @@
 # WebSphere (traditional)
 
+## Lecture video
+(Japanese) https://www.youtube.com/watch?v=unSnRHMwwlE
+(English) https://www.youtube.com/watch?v=xUZLUHxPHlU
+
 WebSphereとは？
 https://www.ibm.com/support/knowledgecenter/jp/SSAW57_9.0.5/com.ibm.websphere.nd.multiplatform.doc/ae/welc6productov.html
 
