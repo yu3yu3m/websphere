@@ -14,7 +14,7 @@
       Starting server ...................
 
 ## 2. Access console 
-https://localhost:30002/ibm/console/login.do?action=secure
+https://localhost:30001/ibm/console/login.do?action=secure
 
 userid: wsadmin
 
