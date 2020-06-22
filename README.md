@@ -1,5 +1,8 @@
 # WebSphere (traditional)
 
+# IBM Official Dockerfile is here:
+https://hub.docker.com/r/ibmcom/websphere-traditional/
+
 ## 1. Execute start.sh
    
    Please wait until server start...
